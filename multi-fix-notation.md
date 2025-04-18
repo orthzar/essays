@@ -30,6 +30,10 @@ But wait, ```:``` and ```;``` are operators: the former is a psuedo-infix notati
 
 The only thing missing is Forth-style post-fix notation (```a x```) and you'd have every kind and variation of notation.  (I am so close to making such a language.)
 
+## Macros and Metaprogramming
+
 Most languages use this multi-fix notation, which is why metaprogramming is so uncommon; macros would require templates and pattern-matching, which are non-trivial to design and implement.  If such languages would use only one kind of notation, macros would be trivial to design/implement.
+
+## Epilogue
 
 You wanted to avoid Lisp-like syntax, and you gave yourself every kind of notation instead, including two forms of prefix notation, one of which has parentheses!  Is there some obscure law that requires language designers be meth-heads?  Avoiding X by implementing everything else plus two alternative forms of X is not logical!
